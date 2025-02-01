@@ -35,10 +35,11 @@ body {
 }
 
 .dialog-box {
-  margin: 100px auto;
+  margin: 0 auto;
   padding: 20px;
   position: relative;
   width: 80%;
+  max-width: 600px;
   text-align: center;
   background-color: #fff7f7;
   border-radius: 20px;
@@ -50,6 +51,7 @@ body {
   top: 0;
   left: 0;
   width: 65%;
+  max-width: 250px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
@@ -66,7 +68,7 @@ body {
 }
 
 .text {
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: #555555;
 }
 

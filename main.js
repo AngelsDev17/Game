@@ -20,7 +20,7 @@ const noButtonMessages = [
 const btnYesFunction = () => {
   dialogBox.innerHTML = `
     <img src="img/image2.gif" class="image" alt="Una imagen bonita">
-    <h1 class="subtitle">Siempre supe que querías:)</h1>
+    <h1 class="subtitle">Siempre supe que querías 🙈</h1>
     <p class="text"><b>Melanny, mi niña linda,</b></p>
     <p class="text">Nuestra conexión es única. La plenitud y madurez que tenemos individualmente son la clave para entendernos, apoyarnos y compartir nuestros sueños, tanto personales como de pareja.</p>
     <p class="text">Cada momento a tu lado ha sido la mejor inversión, y deseo seguir compartiendo mi amor y mi tiempo contigo...</p>
