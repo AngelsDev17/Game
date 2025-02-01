@@ -12,10 +12,8 @@ const messages = [
 const noButtonMessages = [
   "Segura?",
   "Mentirosa",
-  "Tú quieres...",
-  "No huyas...",
-  "A ti te gustaría...",
-  "¿De verdad?",
+  "Quieres...",
+  "¿Verdad?",
   "Piensalo:)",
 ];
 

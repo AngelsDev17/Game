@@ -71,9 +71,21 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
 .buttons .button {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons .button button {
   padding: 0.5rem 1.6rem;
-  margin: 0 0.6rem;
   border: none;
   border-radius: 10px;
   font-size: 1rem;
@@ -83,23 +95,24 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
-.buttons .btn-yes {
+.buttons .button .btn-yes {
   background-color: rgb(234, 131, 122);
   color: white;
   transition: all 0.5s ease;
 }
 
-.buttons .btn-yes:hover {
+.buttons .button .btn-yes:hover {
   background-color: rgb(228, 163, 157);
 }
 
-.buttons .btn-no {
+.buttons .button .btn-no {
   position: relative;
   background-color: #f1f1f1;
   color: #333333;
   transition: transform 0.3s ease-in-out;
+  max-width: 100%;
 }
 
-.buttons .btn-no:hover {
+.buttons .button .btn-no:hover {
   background-color: #ddddddc8;
 }
