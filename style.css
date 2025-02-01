@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(240, 155, 147);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(240, 155, 147, 1) 0%,
+    rgba(235, 214, 215, 1) 75%,
+    rgba(229, 234, 245, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(240, 155, 147, 1) 0%,
+    rgba(235, 214, 215, 1) 70%,
+    rgba(229, 234, 245, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(240, 155, 147, 1) 0%,
+    rgba(235, 214, 215, 1) 70%,
+    rgba(229, 234, 245, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f09b93",endColorstr="#e5eaf5",GradientType=1);
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 65%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 1.8rem;
+  color: #555555;
+  margin-bottom: 0.3rem;
+}
+
+.text {
+  font-size: 1rem;
+  color: #555555;
+}
+
+.subtitle {
+  color: rgb(234, 131, 122);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.dialog-box {
+  margin: 100px auto;
+  padding: 20px;
+  position: relative;
+  width: 80%;
+  text-align: center;
+  background-color: #fff7f7;
+  border-radius: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.buttons .button {
+  padding: 0.5rem 1.6rem;
+  margin: 0 0.6rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.buttons .btn-yes {
+  background-color: rgb(234, 131, 122);
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.buttons .btn-yes:hover {
+  background-color: rgb(228, 163, 157);
+}
+
+.buttons .btn-no {
+  position: relative;
+  background-color: #f1f1f1;
+  color: #333333;
+  transition: transform 0.05s ease-in-out;
+}
+
+.buttons .btn-no:hover {
+  background-color: #ddddddc8;
+}
