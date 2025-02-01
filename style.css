@@ -34,7 +34,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f09b93",endColorstr="#e5eaf5",GradientType=1);
 }
 
-.image1 {
+.image {
   position: relative;
   top: 0;
   left: 0;
@@ -75,7 +75,7 @@ body {
   padding: 0.5rem 1.6rem;
   margin: 0 0.6rem;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
@@ -97,7 +97,7 @@ body {
   position: relative;
   background-color: #f1f1f1;
   color: #333333;
-  transition: transform 0.05s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .buttons .btn-no:hover {
