@@ -6,7 +6,7 @@ const btnNo = document.getElementById("btn-no");
 const messages = [
   "Estas segura...?",
   "Yo sé que si quieres:)",
-  "No te resistas más...",
+  "No te resistas más... 🫣",
 ];
 
 const noButtonMessages = [
