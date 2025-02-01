@@ -4,7 +4,7 @@ const btnYes = document.getElementById("btn-yes");
 const btnNo = document.getElementById("btn-no");
 
 const messages = [
-  "¿Segura que no quieres...?",
+  "Estas segura...?",
   "Yo sé que si quieres:)",
   "No te resistas más...",
 ];

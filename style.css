@@ -16,22 +16,33 @@ body {
   background: -moz-linear-gradient(
     180deg,
     rgba(240, 155, 147, 1) 0%,
-    rgba(235, 214, 215, 1) 75%,
+    rgba(235, 214, 215, 1) 65%,
     rgba(229, 234, 245, 1) 100%
   );
   background: -webkit-linear-gradient(
     180deg,
     rgba(240, 155, 147, 1) 0%,
-    rgba(235, 214, 215, 1) 70%,
+    rgba(235, 214, 215, 1) 65%,
     rgba(229, 234, 245, 1) 100%
   );
   background: linear-gradient(
     180deg,
     rgba(240, 155, 147, 1) 0%,
-    rgba(235, 214, 215, 1) 70%,
+    rgba(235, 214, 215, 1) 65%,
     rgba(229, 234, 245, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f09b93",endColorstr="#e5eaf5",GradientType=1);
+}
+
+.dialog-box {
+  margin: 100px auto;
+  padding: 20px;
+  position: relative;
+  width: 80%;
+  text-align: center;
+  background-color: #fff7f7;
+  border-radius: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .image {
@@ -49,26 +60,15 @@ body {
   margin-bottom: 0.3rem;
 }
 
-.text {
-  font-size: 1rem;
-  color: #555555;
-}
-
 .subtitle {
   color: rgb(234, 131, 122);
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.dialog-box {
-  margin: 100px auto;
-  padding: 20px;
-  position: relative;
-  width: 80%;
-  text-align: center;
-  background-color: #fff7f7;
-  border-radius: 25px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+.text {
+  font-size: 1rem;
+  color: #555555;
 }
 
 .buttons {
@@ -95,17 +95,17 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
-.buttons .button .btn-yes {
+.buttons .button button.btn-yes {
   background-color: rgb(234, 131, 122);
   color: white;
   transition: all 0.5s ease;
 }
 
-.buttons .button .btn-yes:hover {
+.buttons .button button.btn-yes:hover {
   background-color: rgb(228, 163, 157);
 }
 
-.buttons .button .btn-no {
+.buttons .button button.btn-no {
   position: relative;
   background-color: #f1f1f1;
   color: #333333;
@@ -113,6 +113,6 @@ body {
   max-width: 100%;
 }
 
-.buttons .button .btn-no:hover {
+.buttons .button button.btn-no:hover {
   background-color: #ddddddc8;
 }
