@@ -41,7 +41,7 @@ body {
   width: 80%;
   text-align: center;
   background-color: #fff7f7;
-  border-radius: 25px;
+  border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -57,7 +57,6 @@ body {
 .title {
   font-size: 1.8rem;
   color: #555555;
-  margin-bottom: 0.3rem;
 }
 
 .subtitle {
@@ -67,14 +66,13 @@ body {
 }
 
 .text {
-  font-size: 1rem;
+  font-size: .9rem;
   color: #555555;
 }
 
 .buttons {
   display: flex;
   justify-content: center;
-  margin-top: 1.5rem;
 }
 
 .buttons .button {
