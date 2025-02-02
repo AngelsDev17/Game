@@ -51,6 +51,8 @@ const btnNoFunction = () => {
     return;
   }
 
+  btnNo.addEventListener("mouseover", btnNoFunction);
+
   btnNo.style.padding = `0.5rem 1.6rem`;
   btnNo.style.fontSize = `1rem`;
 
@@ -65,4 +67,3 @@ const btnNoFunction = () => {
 
 btnYes.addEventListener("click", btnYesFunction);
 btnNo.addEventListener("click", btnNoFunction);
-btnNo.addEventListener("mouseover", btnNoFunction);
