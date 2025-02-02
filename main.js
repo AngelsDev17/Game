@@ -65,3 +65,4 @@ const btnNoFunction = () => {
 
 btnYes.addEventListener("click", btnYesFunction);
 btnNo.addEventListener("click", btnNoFunction);
+btnNo.addEventListener("mouseover", btnNoFunction);
