@@ -92,12 +92,13 @@ body {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
 }
 
 .buttons .button button.btn-yes {
   background-color: rgb(234, 131, 122);
-  color: white;
+  color: rgb(252, 246, 246);
+  border: 2px solid rgb(233, 126, 116);
   transition: all 0.5s ease;
 }
 
@@ -107,12 +108,12 @@ body {
 
 .buttons .button button.btn-no {
   position: relative;
-  background-color: #f1f1f1;
-  color: #333333;
+  background-color: #921212e5;
+  color: rgb(252, 246, 246);
+  border: 2px solid #8f0f0fcc;
   transition: transform 0.3s ease-in-out;
-  max-width: 100%;
 }
 
 .buttons .button button.btn-no:hover {
-  background-color: #ddddddc8;
+  opacity: 0.8;
 }

@@ -4,18 +4,23 @@ const btnYes = document.getElementById("btn-yes");
 const btnNo = document.getElementById("btn-no");
 
 const messages = [
-  "Estas segura...?",
-  "Yo sé que si quieres:)",
+  "Estas segura...? 😢",
+  "Yo sé que si quieres:) 🥲",
   "No te resistas más... 🫣",
 ];
 
 const noButtonMessages = [
-  "Segura?",
+  "¿Segura?",
   "Mentirosa",
   "Quieres...",
   "¿Verdad?",
   "Piensalo:)",
 ];
+
+var btnNoCounter = 0;
+var btnNoWidth = 1.6;
+var btnNoHeight = 0.5;
+var btnNoFontSize = 1;
 
 const btnYesFunction = () => {
   dialogBox.innerHTML = `
@@ -23,24 +28,33 @@ const btnYesFunction = () => {
     <h1 class="subtitle">Siempre supe que querías 🙈</h1>
     <p class="text"><b>Melanny, mi niña linda,</b></p>
     <p class="text">Nuestra conexión es única. La plenitud y madurez que tenemos individualmente son la clave para entendernos, apoyarnos y compartir nuestros sueños, tanto personales como de pareja.</p>
-    <p class="text">Cada momento a tu lado ha sido la mejor inversión, y deseo seguir compartiendo mi amor y mi tiempo contigo...</p>
+    <p class="text">Cada momento a tu lado ha sido la mejor inversión, y deseo seguir compartiendo mi cariño y tiempo contigo...</p>
     <p class="text"><b>Con todo mi amor,</b> Migue ❤️</p>
     `;
 };
 
-var counter = 0;
-
 const btnNoFunction = () => {
-  if (counter < messages.length) {
-    subtitle.innerHTML = messages[counter];
-    counter++;
+  if (btnNoCounter < messages.length) {
+    subtitle.innerHTML = messages[btnNoCounter];
+
+    btnNoWidth -= 0.6;
+    btnNoHeight -= 0.2;
+    btnNoFontSize -= 0.2;
+
+    btnNo.style.padding = `${btnNoHeight}rem ${btnNoWidth}rem`;
+    btnNo.style.fontSize = `${btnNoFontSize}rem`;
+
+    btnNoCounter++;
   }
 
-  if (counter < messages.length) {
+  if (btnNoCounter < messages.length) {
     return;
   }
 
-  const x = Math.random() * 300 - 225;
+  btnNo.style.padding = `0.5rem 1.6rem`;
+  btnNo.style.fontSize = `1rem`;
+
+  const x = Math.random() * 280 - 225;
   const y = Math.random() * -500 - 50;
 
   btnNo.textContent =
